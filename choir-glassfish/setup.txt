@@ -4,6 +4,7 @@ cat ~/.ssh/id_rsa.pub
 
 apt-get update
 apt-get install docker.io
+apt-get install git
 
 Artifactory:
 ------------
