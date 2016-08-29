@@ -1,4 +1,4 @@
-FROM glassfish-cph
+FROM eguahlak/glassfish-cph
 MAINTAINER AKA RHP
 
 RUN wget \
