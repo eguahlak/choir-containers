@@ -1,0 +1,10 @@
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub
+# cat ~/.ssh/id_rsa.pub | ssh root@[your.ip.address.here] "cat >> ~/.ssh/authorized_keys"
+
+apt-get update
+apt-get install docker.io
+
+Artifactory:
+------------
+docker pull docker.bintray.io/jfrog/artifactory-oss:4.10.0
